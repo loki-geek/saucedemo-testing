@@ -52,9 +52,12 @@ public class BaseClassSD {
 			break;
 		default:
 			//WebDriverManager.chromedriver().setup();
-			System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "/bin/chromedriver");
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.setHeadless(true);
+			chromeOptions.add_argument('--disable-dev-shm-usage');
+			chromeOptions.add_argument('--ignore-ssl-errors=yes');
+			chromeOptions.add_argument('--ignore-certificate-errors');
 			driver = new ChromeDriver(chromeOptions);
 			logger.info("Chrome Browser opened");
 		
