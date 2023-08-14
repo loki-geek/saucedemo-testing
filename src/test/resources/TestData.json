@@ -1,0 +1,50 @@
+{
+
+ "loginTestData": [
+	{
+		"userName" : "standard_user",
+		"password" : "secret_sauce"
+	},
+	{
+		"userName" : "locked_out_user",
+		"password" : "secret_sauce"
+	},
+	{
+		"userName" : "problem_user",
+		"password" : "secret_sauce"
+	},
+	{
+		"userName" : "wrong_user",
+		"password" : "wrong_password"
+	},
+    {
+		"userName" : "performance_glitch_user",
+		"password" : "secret_sauce"
+	}
+	
+ ],
+ 
+ "validLogin":[
+ {
+ 	"userName":"standard_user",
+ 	"password":"secret_sauce"
+ }
+ ],
+ 
+ "billingData":[
+ 	{
+ 		"firstName":"Sample",
+ 		"lastName":"user",
+ 		"zipCode":"54321"
+ 	}
+ 
+ ],
+ 
+ "sortOptions":[
+ 	"Name (Z to A)",
+ 	"Name (A to Z)",
+ 	"Price (low to high)",
+ 	"Price (high to low)"
+ ]
+ 
+}

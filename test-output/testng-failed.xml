@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.testing.utils.ReportingSD"/>
+  </listeners>
+  <test thread-count="5" name="End-to-End WebTesting(failed)">
+    <classes>
+      <class name="com.testing.testcases.TC01_Login">
+        <methods>
+          <include name="initialize"/>
+          <include name="setup"/>
+          <include name="closeBrowser"/>
+          <include name="loginTest" invocation-numbers="1 3"/>
+        </methods>
+      </class> <!-- com.testing.testcases.TC01_Login -->
+    </classes>
+  </test> <!-- End-to-End WebTesting(failed) -->
+</suite> <!-- Failed suite [Suite] -->
