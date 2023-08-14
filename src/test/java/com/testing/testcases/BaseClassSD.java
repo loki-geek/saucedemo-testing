@@ -51,7 +51,8 @@ public class BaseClassSD {
 			logger.info("Firefox Browser opened");
 			break;
 		default:
-			WebDriverManager.chromedriver().setup();
+			//WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.setHeadless(true);
 			driver = new ChromeDriver(chromeOptions);
