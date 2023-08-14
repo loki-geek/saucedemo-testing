@@ -19,7 +19,7 @@ public class JsonFileUtils {
 	
 	public JsonFileUtils() {//reading the testData from .json file
 		try {//fileReader used to get the .json file and parsing it using JsonParser.
-			FileReader fileJson = new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\TestData.json");
+			FileReader fileJson = new FileReader(System.getProperty("user.dir")+"/src/test/resources/TestData.json");
 			testDataObj = (JsonObject)JsonParser.parseReader(fileJson);
 		}catch(FileNotFoundException e) {
 			e.printStackTrace();
@@ -33,7 +33,7 @@ public class JsonFileUtils {
 	
 	public void jsonWriteAndClose() {
 		try {//using PrintWriter class to write the data into the .json file
-			PrintWriter pwrite = new PrintWriter(System.getProperty("user.dir")+"\\src\\test\\resources\\ProductSorted.json");
+			PrintWriter pwrite = new PrintWriter(System.getProperty("user.dir")+"/src/test/resources/ProductSorted.json");
 			pwrite.write(jsonObjWrite.toString());
 			pwrite.flush();// flush and close the json file
 			pwrite.close();

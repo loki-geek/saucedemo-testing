@@ -103,12 +103,12 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.testing.testcases.TC01_Login" class="method navigator-link" hash-for-method="loginTest(wrong_user, wrong_password)">loginTest(wrong_user, wrong_password)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.testing.testcases.TC01_Login" class="method navigator-link" hash-for-method="loginTest(locked_out_user, secret_sauce)">loginTest(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.testing.testcases.TC01_Login" class="method navigator-link" hash-for-method="loginTest(locked_out_user, secret_sauce)">loginTest(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.testing.testcases.TC01_Login" class="method navigator-link" hash-for-method="loginTest(wrong_user, wrong_password)">loginTest(wrong_user, wrong_password)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -142,6 +142,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.testing.testcases.TC02_SortProducts" class="method navigator-link" hash-for-method="login(standard_user, secret_sauce)">login(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.testing.testcases.TC03_AddToCart" class="method navigator-link" hash-for-method="login(standard_user, secret_sauce)">login(standard_user, secret_sauce)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -152,7 +157,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.testing.testcases.TC02_SortProducts" class="method navigator-link" hash-for-method="login(standard_user, secret_sauce)">login(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.testing.testcases.TC01_Login" class="method navigator-link" hash-for-method="loginTest(standard_user, secret_sauce)">loginTest(standard_user, secret_sauce)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -167,17 +172,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.testing.testcases.TC01_Login" class="method navigator-link" hash-for-method="loginTest(standard_user, secret_sauce)">loginTest(standard_user, secret_sauce)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.testing.testcases.TC03_AddToCart" class="method navigator-link" hash-for-method="removeProductFromCart">removeProductFromCart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.testing.testcases.TC02_SortProducts" class="method navigator-link" hash-for-method="sorting(Name (Z to A))">sorting(Name (Z to A))</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.testing.testcases.TC02_SortProducts" class="method navigator-link" hash-for-method="sorting(Name (A to Z))">sorting(Name (A to Z))</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -187,12 +187,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.testing.testcases.TC02_SortProducts" class="method navigator-link" hash-for-method="sorting(Price (high to low))">sorting(Price (high to low))</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.testing.testcases.TC02_SortProducts" class="method navigator-link" hash-for-method="sorting(Name (Z to A))">sorting(Name (Z to A))</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.testing.testcases.TC02_SortProducts" class="method navigator-link" hash-for-method="sorting(Name (A to Z))">sorting(Name (A to Z))</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.testing.testcases.TC02_SortProducts" class="method navigator-link" hash-for-method="sorting(Price (high to low))">sorting(Price (high to low))</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -215,19 +215,6 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(wrong_user, wrong_password)">
-                  </a> <!-- loginTest(wrong_user, wrong_password) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(wrong_user,wrong_password)</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at com.testing.testcases.TC01_Login.loginTest(TC01_Login.java:38)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="loginTest(locked_out_user, secret_sauce)">
                   </a> <!-- loginTest(locked_out_user, secret_sauce) -->
                   <span class="method-name">loginTest</span>
@@ -239,38 +226,21 @@
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(wrong_user, wrong_password)">
+                  </a> <!-- loginTest(wrong_user, wrong_password) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(wrong_user,wrong_password)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.testing.testcases.TC01_Login.loginTest(TC01_Login.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.testing.testcases.TC03_AddToCart</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addProductToCart">
-                  </a> <!-- addProductToCart -->
-                  <span class="method-name">addProductToCart</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="login(standard_user, secret_sauce)">
-                  </a> <!-- login(standard_user, secret_sauce) -->
-                  <span class="method-name">login</span>
-                  <span class="parameters">(standard_user,secret_sauce)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="removeProductFromCart">
-                  </a> <!-- removeProductFromCart -->
-                  <span class="method-name">removeProductFromCart</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -312,9 +282,47 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.testing.testcases.TC03_AddToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductToCart">
+                  </a> <!-- addProductToCart -->
+                  <span class="method-name">addProductToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(standard_user, secret_sauce)">
+                  </a> <!-- login(standard_user, secret_sauce) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(standard_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeProductFromCart">
+                  </a> <!-- removeProductFromCart -->
+                  <span class="method-name">removeProductFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.testing.testcases.TC01_Login</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(standard_user, secret_sauce)">
+                  </a> <!-- loginTest(standard_user, secret_sauce) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(standard_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="loginTest(performance_glitch_user, secret_sauce)">
@@ -329,14 +337,6 @@
                   </a> <!-- loginTest(problem_user, secret_sauce) -->
                   <span class="method-name">loginTest</span>
                   <span class="parameters">(problem_user,secret_sauce)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginTest(standard_user, secret_sauce)">
-                  </a> <!-- loginTest(standard_user, secret_sauce) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(standard_user,secret_sauce)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -357,10 +357,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="sorting(Name (Z to A))">
-                  </a> <!-- sorting(Name (Z to A)) -->
+                  <a name="sorting(Name (A to Z))">
+                  </a> <!-- sorting(Name (A to Z)) -->
                   <span class="method-name">sorting</span>
-                  <span class="parameters">(Name (Z to A))</span>
+                  <span class="parameters">(Name (A to Z))</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -373,18 +373,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="sorting(Price (high to low))">
-                  </a> <!-- sorting(Price (high to low)) -->
+                  <a name="sorting(Name (Z to A))">
+                  </a> <!-- sorting(Name (Z to A)) -->
                   <span class="method-name">sorting</span>
-                  <span class="parameters">(Price (high to low))</span>
+                  <span class="parameters">(Name (Z to A))</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="sorting(Name (A to Z))">
-                  </a> <!-- sorting(Name (A to Z)) -->
+                  <a name="sorting(Price (high to low))">
+                  </a> <!-- sorting(Price (high to low)) -->
                   <span class="method-name">sorting</span>
-                  <span class="parameters">(Name (A to Z))</span>
+                  <span class="parameters">(Price (high to low))</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -452,76 +452,76 @@ data.addRows(17);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTest')
 data.setCell(0, 2, 'com.testing.testcases.TC01_Login')
-data.setCell(0, 3, 5514);
+data.setCell(0, 3, 5233);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginTest')
 data.setCell(1, 2, 'com.testing.testcases.TC01_Login')
-data.setCell(1, 3, 769);
+data.setCell(1, 3, 384);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'loginTest')
 data.setCell(2, 2, 'com.testing.testcases.TC01_Login')
-data.setCell(2, 3, 583);
+data.setCell(2, 3, 245);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginTest')
-data.setCell(3, 2, 'com.testing.testcases.TC01_Login')
-data.setCell(3, 3, 492);
+data.setCell(3, 1, 'addProductToCart')
+data.setCell(3, 2, 'com.testing.testcases.TC03_AddToCart')
+data.setCell(3, 3, 182);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'addProductToCart')
+data.setCell(4, 1, 'checkoutTheProduct')
 data.setCell(4, 2, 'com.testing.testcases.TC04_Checkout')
-data.setCell(4, 3, 471);
+data.setCell(4, 3, 171);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'checkoutTheProduct')
-data.setCell(5, 2, 'com.testing.testcases.TC04_Checkout')
-data.setCell(5, 3, 448);
+data.setCell(5, 1, 'loginTest')
+data.setCell(5, 2, 'com.testing.testcases.TC01_Login')
+data.setCell(5, 3, 161);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'login')
+data.setCell(6, 1, 'sorting')
 data.setCell(6, 2, 'com.testing.testcases.TC02_SortProducts')
-data.setCell(6, 3, 408);
+data.setCell(6, 3, 145);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'login')
-data.setCell(7, 2, 'com.testing.testcases.TC04_Checkout')
-data.setCell(7, 3, 396);
+data.setCell(7, 2, 'com.testing.testcases.TC03_AddToCart')
+data.setCell(7, 3, 140);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'login')
-data.setCell(8, 2, 'com.testing.testcases.TC03_AddToCart')
-data.setCell(8, 3, 393);
+data.setCell(8, 2, 'com.testing.testcases.TC02_SortProducts')
+data.setCell(8, 3, 138);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'sorting')
-data.setCell(9, 2, 'com.testing.testcases.TC02_SortProducts')
-data.setCell(9, 3, 383);
+data.setCell(9, 1, 'login')
+data.setCell(9, 2, 'com.testing.testcases.TC04_Checkout')
+data.setCell(9, 3, 135);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'loginTest')
 data.setCell(10, 2, 'com.testing.testcases.TC01_Login')
-data.setCell(10, 3, 341);
+data.setCell(10, 3, 124);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'sorting')
 data.setCell(11, 2, 'com.testing.testcases.TC02_SortProducts')
-data.setCell(11, 3, 327);
+data.setCell(11, 3, 113);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'sorting')
 data.setCell(12, 2, 'com.testing.testcases.TC02_SortProducts')
-data.setCell(12, 3, 316);
+data.setCell(12, 3, 112);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'sorting')
 data.setCell(13, 2, 'com.testing.testcases.TC02_SortProducts')
-data.setCell(13, 3, 316);
+data.setCell(13, 3, 111);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'addProductToCart')
-data.setCell(14, 2, 'com.testing.testcases.TC03_AddToCart')
-data.setCell(14, 3, 254);
+data.setCell(14, 2, 'com.testing.testcases.TC04_Checkout')
+data.setCell(14, 3, 108);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'finishCheckout')
-data.setCell(15, 2, 'com.testing.testcases.TC04_Checkout')
-data.setCell(15, 3, 179);
+data.setCell(15, 1, 'removeProductFromCart')
+data.setCell(15, 2, 'com.testing.testcases.TC03_AddToCart')
+data.setCell(15, 3, 75);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'removeProductFromCart')
-data.setCell(16, 2, 'com.testing.testcases.TC03_AddToCart')
-data.setCell(16, 3, 68);
+data.setCell(16, 1, 'finishCheckout')
+data.setCell(16, 2, 'com.testing.testcases.TC04_Checkout')
+data.setCell(16, 3, 72);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -554,140 +554,140 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">7854 ms</span>
+                <span class="method-start">7521 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginTest(standard_user, secret_sauce)</span>
-                <span class="method-start">7884 ms</span>
+                <span class="method-start">7534 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginTest(locked_out_user, secret_sauce)</span>
-                <span class="method-start">8665 ms</span>
+                <span class="method-start">7923 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginTest(problem_user, secret_sauce)</span>
-                <span class="method-start">9252 ms</span>
+                <span class="method-start">8153 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginTest(wrong_user, wrong_password)</span>
-                <span class="method-start">9836 ms</span>
+                <span class="method-start">8399 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginTest(performance_glitch_user, secret_sauce)</span>
-                <span class="method-start">10249 ms</span>
+                <span class="method-start">8565 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">15765 ms</span>
+                <span class="method-start">13799 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testing.testcases.TC02_SortProducts</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">15806 ms</span>
+                <span class="method-start">13817 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">19235 ms</span>
+                <span class="method-start">15733 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">login(standard_user, secret_sauce)</span>
-                <span class="method-start">19237 ms</span>
+                <span class="method-start">15734 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sorting(Name (Z to A))</span>
-                <span class="method-start">19651 ms</span>
+                <span class="method-start">15874 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sorting(Name (A to Z))</span>
-                <span class="method-start">20035 ms</span>
+                <span class="method-start">16019 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sorting(Price (low to high))</span>
-                <span class="method-start">20352 ms</span>
+                <span class="method-start">16130 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sorting(Price (high to low))</span>
-                <span class="method-start">20680 ms</span>
+                <span class="method-start">16243 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">logOut</span>
-                <span class="method-start">20998 ms</span>
+                <span class="method-start">16356 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">21225 ms</span>
+                <span class="method-start">16483 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testing.testcases.TC03_AddToCart</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">21266 ms</span>
+                <span class="method-start">16498 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">23570 ms</span>
+                <span class="method-start">18381 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">login(standard_user, secret_sauce)</span>
-                <span class="method-start">23575 ms</span>
+                <span class="method-start">18383 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">addProductToCart</span>
-                <span class="method-start">23969 ms</span>
+                <span class="method-start">18524 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">removeProductFromCart</span>
-                <span class="method-start">24225 ms</span>
+                <span class="method-start">18707 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">logOut</span>
-                <span class="method-start">24294 ms</span>
+                <span class="method-start">18782 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">24501 ms</span>
+                <span class="method-start">18902 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testing.testcases.TC04_Checkout</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">24559 ms</span>
+                <span class="method-start">18918 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">26924 ms</span>
+                <span class="method-start">20856 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">login(standard_user, secret_sauce)</span>
-                <span class="method-start">26931 ms</span>
+                <span class="method-start">20858 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">addProductToCart</span>
-                <span class="method-start">27329 ms</span>
+                <span class="method-start">20994 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkoutTheProduct(Sample, user, 54321)</span>
-                <span class="method-start">27804 ms</span>
+                <span class="method-start">21104 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">finishCheckout</span>
-                <span class="method-start">28254 ms</span>
+                <span class="method-start">21276 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">logOut</span>
-                <span class="method-start">28434 ms</span>
+                <span class="method-start">21348 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">28643 ms</span>
+                <span class="method-start">21468 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

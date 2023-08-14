@@ -80,3 +80,89 @@
 2023-08-14 14:50:25,687 [main] INFO SauceDemoWebTesting - @InventoryPage-MoreOptions button clicked
 2023-08-14 14:50:25,828 [main] INFO SauceDemoWebTesting - @InventoryPage-Logout button clicked
 2023-08-14 14:50:25,860 [main] INFO SauceDemoWebTesting - Browser closed
+2023-08-14 15:02:16,122 [main] INFO SauceDemoWebTesting - Chrome Browser opened
+2023-08-14 15:02:20,681 [main] INFO SauceDemoWebTesting - URL opened
+2023-08-14 15:02:20,864 [main] INFO SauceDemoWebTesting - @LoginPage-Username entered
+2023-08-14 15:02:20,903 [main] INFO SauceDemoWebTesting - @LoginPage-Password entered
+2023-08-14 15:02:20,961 [main] INFO SauceDemoWebTesting - @LoginPage-login button clicked
+2023-08-14 15:02:20,971 [main] INFO SauceDemoWebTesting - ProductPage url verified. Login successful!
+2023-08-14 15:02:21,002 [main] INFO SauceDemoWebTesting - @InventoryPage-MoreOptions button clicked
+2023-08-14 15:02:21,092 [main] INFO SauceDemoWebTesting - @InventoryPage-Logout button clicked
+2023-08-14 15:02:21,165 [main] INFO SauceDemoWebTesting - @LoginPage-Username entered
+2023-08-14 15:02:21,199 [main] INFO SauceDemoWebTesting - @LoginPage-Password entered
+2023-08-14 15:02:21,228 [main] INFO SauceDemoWebTesting - @LoginPage-login button clicked
+2023-08-14 15:02:21,257 [main] INFO SauceDemoWebTesting - Login error. Invalid username or password
+2023-08-14 15:02:21,324 [main] INFO SauceDemoWebTesting - Screenshot taken.
+2023-08-14 15:02:21,377 [main] INFO SauceDemoWebTesting - @LoginPage-Username entered
+2023-08-14 15:02:21,410 [main] INFO SauceDemoWebTesting - @LoginPage-Password entered
+2023-08-14 15:02:21,452 [main] INFO SauceDemoWebTesting - @LoginPage-login button clicked
+2023-08-14 15:02:21,456 [main] INFO SauceDemoWebTesting - ProductPage url verified. Login successful!
+2023-08-14 15:02:21,482 [main] INFO SauceDemoWebTesting - @InventoryPage-MoreOptions button clicked
+2023-08-14 15:02:21,572 [main] INFO SauceDemoWebTesting - @InventoryPage-Logout button clicked
+2023-08-14 15:02:21,620 [main] INFO SauceDemoWebTesting - @LoginPage-Username entered
+2023-08-14 15:02:21,653 [main] INFO SauceDemoWebTesting - @LoginPage-Password entered
+2023-08-14 15:02:21,680 [main] INFO SauceDemoWebTesting - @LoginPage-login button clicked
+2023-08-14 15:02:21,697 [main] INFO SauceDemoWebTesting - Login error. Invalid username or password
+2023-08-14 15:02:21,738 [main] INFO SauceDemoWebTesting - Screenshot taken.
+2023-08-14 15:02:21,792 [main] INFO SauceDemoWebTesting - @LoginPage-Username entered
+2023-08-14 15:02:21,825 [main] INFO SauceDemoWebTesting - @LoginPage-Password entered
+2023-08-14 15:02:26,858 [main] INFO SauceDemoWebTesting - @LoginPage-login button clicked
+2023-08-14 15:02:26,862 [main] INFO SauceDemoWebTesting - ProductPage url verified. Login successful!
+2023-08-14 15:02:26,881 [main] INFO SauceDemoWebTesting - @InventoryPage-MoreOptions button clicked
+2023-08-14 15:02:26,972 [main] INFO SauceDemoWebTesting - @InventoryPage-Logout button clicked
+2023-08-14 15:02:26,990 [main] INFO SauceDemoWebTesting - Browser closed
+2023-08-14 15:02:28,071 [main] INFO SauceDemoWebTesting - Chrome Browser opened
+2023-08-14 15:02:28,906 [main] INFO SauceDemoWebTesting - URL opened
+2023-08-14 15:02:28,956 [main] INFO SauceDemoWebTesting - @LoginPage-Username entered
+2023-08-14 15:02:28,993 [main] INFO SauceDemoWebTesting - @LoginPage-Password entered
+2023-08-14 15:02:29,046 [main] INFO SauceDemoWebTesting - @LoginPage-login button clicked
+2023-08-14 15:02:29,064 [main] INFO SauceDemoWebTesting - @InventoryPage-SortBy dropdown clicked.
+2023-08-14 15:02:29,111 [main] INFO SauceDemoWebTesting - @InventoryPage-Name (Z to A) button clicked
+2023-08-14 15:02:29,203 [main] INFO SauceDemoWebTesting - @InventoryPage-SortBy dropdown clicked.
+2023-08-14 15:02:29,236 [main] INFO SauceDemoWebTesting - @InventoryPage-Name (A to Z) button clicked
+2023-08-14 15:02:29,315 [main] INFO SauceDemoWebTesting - @InventoryPage-SortBy dropdown clicked.
+2023-08-14 15:02:29,349 [main] INFO SauceDemoWebTesting - @InventoryPage-Price (low to high) button clicked
+2023-08-14 15:02:29,427 [main] INFO SauceDemoWebTesting - @InventoryPage-SortBy dropdown clicked.
+2023-08-14 15:02:29,461 [main] INFO SauceDemoWebTesting - @InventoryPage-Price (high to low) button clicked
+2023-08-14 15:02:29,560 [main] INFO SauceDemoWebTesting - @InventoryPage-MoreOptions button clicked
+2023-08-14 15:02:29,657 [main] INFO SauceDemoWebTesting - @InventoryPage-Logout button clicked
+2023-08-14 15:02:29,671 [main] INFO SauceDemoWebTesting - Browser closed
+2023-08-14 15:02:30,753 [main] INFO SauceDemoWebTesting - Chrome Browser opened
+2023-08-14 15:02:31,555 [main] INFO SauceDemoWebTesting - URL opened
+2023-08-14 15:02:31,603 [main] INFO SauceDemoWebTesting - @LoginPage-Username entered
+2023-08-14 15:02:31,641 [main] INFO SauceDemoWebTesting - @LoginPage-Password entered
+2023-08-14 15:02:31,696 [main] INFO SauceDemoWebTesting - @LoginPage-login button clicked
+2023-08-14 15:02:31,720 [main] INFO SauceDemoWebTesting - scrolling to a element
+2023-08-14 15:02:31,763 [main] INFO SauceDemoWebTesting - scrolling to a element
+2023-08-14 15:02:31,793 [main] INFO SauceDemoWebTesting - scrolling to a element
+2023-08-14 15:02:31,819 [main] INFO SauceDemoWebTesting - scrolling to a element
+2023-08-14 15:02:31,849 [main] INFO SauceDemoWebTesting - scrolling to a element
+2023-08-14 15:02:31,879 [main] INFO SauceDemoWebTesting - @InventoryPage-Cart button clicked.
+2023-08-14 15:02:31,908 [main] INFO SauceDemoWebTesting - @CartPage-Remove product button clicked
+2023-08-14 15:02:31,924 [main] INFO SauceDemoWebTesting - @CartPage-Remove product button clicked
+2023-08-14 15:02:31,940 [main] INFO SauceDemoWebTesting - @CartPage-Remove product button clicked
+2023-08-14 15:02:31,956 [main] INFO SauceDemoWebTesting - @CartPage-Remove product button clicked
+2023-08-14 15:02:31,983 [main] INFO SauceDemoWebTesting - @InventoryPage-MoreOptions button clicked
+2023-08-14 15:02:32,076 [main] INFO SauceDemoWebTesting - @InventoryPage-Logout button clicked
+2023-08-14 15:02:32,092 [main] INFO SauceDemoWebTesting - Browser closed
+2023-08-14 15:02:33,183 [main] INFO SauceDemoWebTesting - Chrome Browser opened
+2023-08-14 15:02:34,030 [main] INFO SauceDemoWebTesting - URL opened
+2023-08-14 15:02:34,079 [main] INFO SauceDemoWebTesting - @LoginPage-Username entered
+2023-08-14 15:02:34,115 [main] INFO SauceDemoWebTesting - @LoginPage-Password entered
+2023-08-14 15:02:34,167 [main] INFO SauceDemoWebTesting - @LoginPage-login button clicked
+2023-08-14 15:02:34,189 [main] INFO SauceDemoWebTesting - scrolling to a element
+2023-08-14 15:02:34,224 [main] INFO SauceDemoWebTesting - scrolling to a element
+2023-08-14 15:02:34,251 [main] INFO SauceDemoWebTesting - @InventoryPage-Cart button clicked.
+2023-08-14 15:02:34,258 [main] INFO SauceDemoWebTesting - Checking whether products added to cart..
+2023-08-14 15:02:34,267 [main] INFO SauceDemoWebTesting - @CartPage-Total products added: 1
+2023-08-14 15:02:34,308 [main] INFO SauceDemoWebTesting - @CartPage-Checkout button clicked.
+2023-08-14 15:02:34,344 [main] INFO SauceDemoWebTesting - @CheckoutInfoPage-FirstName entered
+2023-08-14 15:02:34,379 [main] INFO SauceDemoWebTesting - @CheckoutInfoPage-LastName entered
+2023-08-14 15:02:34,414 [main] INFO SauceDemoWebTesting - @CheckoutInfoPage-ZipCode entered
+2023-08-14 15:02:34,449 [main] INFO SauceDemoWebTesting - @CheckoutInfoPage-Continue button clicked
+2023-08-14 15:02:34,478 [main] INFO SauceDemoWebTesting - @CheckoutOverviewPage-Finish button clicked
+2023-08-14 15:02:34,494 [main] INFO SauceDemoWebTesting - @CheckoutCompletePage-Order placed successfully!! :)
+2023-08-14 15:02:34,522 [main] INFO SauceDemoWebTesting - @CheckoutCompletePage-BackHome button clicked
+2023-08-14 15:02:34,551 [main] INFO SauceDemoWebTesting - @InventoryPage-MoreOptions button clicked
+2023-08-14 15:02:34,641 [main] INFO SauceDemoWebTesting - @InventoryPage-Logout button clicked
+2023-08-14 15:02:34,661 [main] INFO SauceDemoWebTesting - Browser closed

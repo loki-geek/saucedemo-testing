@@ -84,7 +84,7 @@ public class ReportingSD implements ITestListener {
 		//On start of the execution, object is created for ExtentReports and attached with sparkReporter.
 		extentReport = new ExtentReports();
 		sparkReport = new ExtentSparkReporter(
-				System.getProperty("user.dir") + "\\test-output\\Extent Reports\\Extentreports.html");
+				System.getProperty("user.dir") + "/test-output/Extent Reports/Extentreports.html");
 		extentReport.attachReporter(sparkReport);
 		//systemInfo and config values are set.
 		extentReport.setSystemInfo("Hostname", "local host");
