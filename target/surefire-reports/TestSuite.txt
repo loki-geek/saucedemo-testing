@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 30.31 s <<< FAILURE! - in TestSuite
-com.testing.testcases.TC01_Login.loginTest[locked_out_user, secret_sauce](2)  Time elapsed: 0.584 s  <<< FAILURE!
+Tests run: 17, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 22.208 s <<< FAILURE! - in TestSuite
+com.testing.testcases.TC01_Login.loginTest[locked_out_user, secret_sauce](2)  Time elapsed: 0.228 s  <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.fail(Assert.java:115)
@@ -40,7 +40,7 @@ java.lang.AssertionError: null
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-com.testing.testcases.TC01_Login.loginTest[wrong_user, wrong_password](4)  Time elapsed: 0.412 s  <<< FAILURE!
+com.testing.testcases.TC01_Login.loginTest[wrong_user, wrong_password](4)  Time elapsed: 0.166 s  <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.fail(Assert.java:115)

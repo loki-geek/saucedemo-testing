@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="30.31" tests="17" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="22.208" tests="17" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="webdriver.chrome.driver" value="C:\Users\loges\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\loges\AppData\Local\Temp\surefire9096566347234321479\surefirebooter-20230814144955523_3.jar C:\Users\loges\AppData\Local\Temp\surefire9096566347234321479 2023-08-14T14-49-55_327-jvmRun1 surefire-20230814144955523_1tmp surefire_0-20230814144955523_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\loges\AppData\Local\Temp\surefire11289761898066761001\surefirebooter-20230814150212489_3.jar C:\Users\loges\AppData\Local\Temp\surefire11289761898066761001 2023-08-14T15-02-12_391-jvmRun1 surefire-20230814150212489_1tmp surefire_0-20230814150212489_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\workspace\Jenkins Workspace\SeleniumCode\SauceDemoTesting\target\test-classes;E:\workspace\Jenkins Workspace\SeleniumCode\SauceDemoTesting\target\classes;C:\Users\loges\.m2\repository\org\seleniumhq\selenium\selenium-java\4.6.0\selenium-java-4.6.0.jar;C:\Users\loges\.m2\repository\org\seleniumhq\selenium\selenium-api\4.6.0\selenium-api-4.6.0.jar;C:\Users\loges\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.6.0\selenium-chrome-driver-4.6.0.jar;C:\Users\loges\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\loges\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\loges\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\loges\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\loges\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\loges\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\loges\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\loges\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.6.0\selenium-chromium-driver-4.6.0.jar;C:\Users\loges\.m2\repository\org\seleniumhq\selenium\selenium-json\4.6.0\selenium-json-4.6.0.jar;C:\Users\loges\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v105\4.6.0\selenium-devtools-v105-4.6.0.jar;C:\Users\loges\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.6.0\selenium-devtools-v106-4.6.0.jar;C:\Users\loges\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.6.0\selenium-devtools-v107-4.6.0.jar;C:\Users\loges\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.6.0\selenium-devtools-v85-4.6.0.jar;C:\Users\loges\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.6.0\selenium-edge-driver-4.6.0.jar;C:\Users\loges\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.6.0\selenium-firefox-driver-4.6.0.jar;C:\Users\loges\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.6.0\selenium-ie-driver-4.6.0.jar;C:\Users\loges\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.6.0\selenium-remote-driver-4.6.0.jar;C:\Users\loges\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\loges\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\loges\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\loges\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\loges\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\loges\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\loges\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\loges\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\loges\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\loges\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\loges\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\loges\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\loges\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\loges\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\loges\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\loges\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\loges\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\loges\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\loges\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\loges\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\loges\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\loges\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\loges\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\loges\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\loges\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\loges\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\loges\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\loges\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\loges\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\loges\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\loges\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\loges\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\loges\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\loges\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\loges\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\loges\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\loges\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.6.0\selenium-manager-4.6.0.jar;C:\Users\loges\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.6.0\selenium-safari-driver-4.6.0.jar;C:\Users\loges\.m2\repository\org\seleniumhq\selenium\selenium-support\4.6.0\selenium-support-4.6.0.jar;C:\Users\loges\.m2\repository\org\seleniumhq\selenium\selenium-http-jdk-client\4.9.1\selenium-http-jdk-client-4.9.1.jar;C:\Users\loges\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\loges\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\loges\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\loges\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.1\selenium-http-4.9.1.jar;C:\Users\loges\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\loges\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\loges\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\loges\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\loges\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\loges\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.10.0\maven-compiler-plugin-3.10.0.jar;C:\Users\loges\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\loges\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\loges\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\loges\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\loges\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\loges\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\loges\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.10.0\plexus-compiler-api-2.10.0.jar;C:\Users\loges\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.1\plexus-utils-3.4.1.jar;C:\Users\loges\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.10.0\plexus-compiler-manager-2.10.0.jar;C:\Users\loges\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.10.0\plexus-compiler-javac-2.10.0.jar;C:\Users\loges\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.3\webdrivermanager-5.3.3.jar;C:\Users\loges\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\loges\.m2\repository\com\github\docker-java\docker-java\3.3.0\docker-java-3.3.0.jar;C:\Users\loges\.m2\repository\com\github\docker-java\docker-java-core\3.3.0\docker-java-core-3.3.0.jar;C:\Users\loges\.m2\repository\com\github\docker-java\docker-java-api\3.3.0\docker-java-api-3.3.0.jar;C:\Users\loges\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\loges\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\loges\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\loges\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\loges\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\loges\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\loges\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.0\docker-java-transport-httpclient5-3.3.0.jar;C:\Users\loges\.m2\repository\com\github\docker-java\docker-java-transport\3.3.0\docker-java-transport-3.3.0.jar;C:\Users\loges\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\loges\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\loges\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\loges\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\loges\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\loges\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\loges\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\loges\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\loges\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\loges\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\loges\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\loges\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\loges\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\loges\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\loges\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\loges\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\loges\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\loges\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\loges\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\loges\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\loges\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\loges\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\loges\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\loges\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\loges\AppData\Local\Temp\surefire9096566347234321479\surefirebooter-20230814144955523_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\loges\AppData\Local\Temp\surefire11289761898066761001\surefirebooter-20230814150212489_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.2+12-46"/>
@@ -57,7 +57,7 @@
     <property name="java.class.version" value="58.0"/>
     <property name="webdriver.http.factory" value="jdk-http-client"/>
   </properties>
-  <testcase name="loginTest[standard_user, secret_sauce](1)" classname="com.testing.testcases.TC01_Login" time="0.779">
+  <testcase name="loginTest[standard_user, secret_sauce](1)" classname="com.testing.testcases.TC01_Login" time="0.388">
     <system-out><![CDATA[ INFO [main] (BaseClassSD.java:58)- Chrome Browser opened
 trying to open url
 url opened
@@ -72,18 +72,18 @@ url opened
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 34379
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 37177
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1692004799.600][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
-Aug 14, 2023 2:50:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1692005535.109][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+Aug 14, 2023 3:02:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 115
-Aug 14, 2023 2:50:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Aug 14, 2023 3:02:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="loginTest[locked_out_user, secret_sauce](2)" classname="com.testing.testcases.TC01_Login" time="0.584">
+  <testcase name="loginTest[locked_out_user, secret_sauce](2)" classname="com.testing.testcases.TC01_Login" time="0.228">
     <failure message="null" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.fail(Assert.java:115)
@@ -128,7 +128,7 @@ WARNING: Unable to find version of CDP to use for . You may need to include a de
  INFO [main] (BaseClassSD.java:90)- Screenshot taken.
 ]]></system-out>
   </testcase>
-  <testcase name="loginTest[problem_user, secret_sauce](3)" classname="com.testing.testcases.TC01_Login" time="0.581">
+  <testcase name="loginTest[problem_user, secret_sauce](3)" classname="com.testing.testcases.TC01_Login" time="0.246">
     <system-out><![CDATA[ INFO [main] (LoginPage.java:24)- @LoginPage-Username entered
  INFO [main] (LoginPage.java:26)- @LoginPage-Password entered
  INFO [main] (LoginPage.java:28)- @LoginPage-login button clicked
@@ -137,7 +137,7 @@ WARNING: Unable to find version of CDP to use for . You may need to include a de
  INFO [main] (ProductsPage.java:89)- @InventoryPage-Logout button clicked
 ]]></system-out>
   </testcase>
-  <testcase name="loginTest[wrong_user, wrong_password](4)" classname="com.testing.testcases.TC01_Login" time="0.412">
+  <testcase name="loginTest[wrong_user, wrong_password](4)" classname="com.testing.testcases.TC01_Login" time="0.166">
     <failure message="null" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.fail(Assert.java:115)
@@ -182,7 +182,7 @@ WARNING: Unable to find version of CDP to use for . You may need to include a de
  INFO [main] (BaseClassSD.java:90)- Screenshot taken.
 ]]></system-out>
   </testcase>
-  <testcase name="loginTest[performance_glitch_user, secret_sauce](5)" classname="com.testing.testcases.TC01_Login" time="5.516">
+  <testcase name="loginTest[performance_glitch_user, secret_sauce](5)" classname="com.testing.testcases.TC01_Login" time="5.234">
     <system-out><![CDATA[ INFO [main] (LoginPage.java:24)- @LoginPage-Username entered
  INFO [main] (LoginPage.java:26)- @LoginPage-Password entered
  INFO [main] (LoginPage.java:28)- @LoginPage-login button clicked
@@ -191,7 +191,7 @@ WARNING: Unable to find version of CDP to use for . You may need to include a de
  INFO [main] (ProductsPage.java:89)- @InventoryPage-Logout button clicked
 ]]></system-out>
   </testcase>
-  <testcase name="login[standard_user, secret_sauce](1)" classname="com.testing.testcases.TC02_SortProducts" time="0.408">
+  <testcase name="login[standard_user, secret_sauce](1)" classname="com.testing.testcases.TC02_SortProducts" time="0.139">
     <system-out><![CDATA[ INFO [main] (BaseClassSD.java:117)- Browser closed
  INFO [main] (BaseClassSD.java:58)- Chrome Browser opened
 trying to open url
@@ -201,7 +201,7 @@ url opened
  INFO [main] (LoginPage.java:26)- @LoginPage-Password entered
  INFO [main] (LoginPage.java:28)- @LoginPage-login button clicked
 ]]></system-out>
-    <system-err><![CDATA[Aug 14, 2023 2:50:12 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Aug 14, 2023 3:02:26 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:345)
@@ -220,38 +220,38 @@ java.net.SocketException: Connection reset
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:923)
 
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 37041
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 24434
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1692004814.256][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
-Aug 14, 2023 2:50:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1692005548.049][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+Aug 14, 2023 3:02:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 115
-Aug 14, 2023 2:50:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Aug 14, 2023 3:02:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="sorting[Name (Z to A)](1)" classname="com.testing.testcases.TC02_SortProducts" time="0.39">
+  <testcase name="sorting[Name (Z to A)](1)" classname="com.testing.testcases.TC02_SortProducts" time="0.144">
     <system-out><![CDATA[ INFO [main] (ProductsPage.java:42)- @InventoryPage-SortBy dropdown clicked.
  INFO [main] (ProductsPage.java:44)- @InventoryPage-Name (Z to A) button clicked
 ]]></system-out>
   </testcase>
-  <testcase name="sorting[Name (A to Z)](2)" classname="com.testing.testcases.TC02_SortProducts" time="0.308">
+  <testcase name="sorting[Name (A to Z)](2)" classname="com.testing.testcases.TC02_SortProducts" time="0.112">
     <system-out><![CDATA[ INFO [main] (ProductsPage.java:42)- @InventoryPage-SortBy dropdown clicked.
  INFO [main] (ProductsPage.java:44)- @InventoryPage-Name (A to Z) button clicked
 ]]></system-out>
   </testcase>
-  <testcase name="sorting[Price (low to high)](3)" classname="com.testing.testcases.TC02_SortProducts" time="0.328">
+  <testcase name="sorting[Price (low to high)](3)" classname="com.testing.testcases.TC02_SortProducts" time="0.112">
     <system-out><![CDATA[ INFO [main] (ProductsPage.java:42)- @InventoryPage-SortBy dropdown clicked.
  INFO [main] (ProductsPage.java:44)- @InventoryPage-Price (low to high) button clicked
 ]]></system-out>
   </testcase>
-  <testcase name="sorting[Price (high to low)](4)" classname="com.testing.testcases.TC02_SortProducts" time="0.318">
+  <testcase name="sorting[Price (high to low)](4)" classname="com.testing.testcases.TC02_SortProducts" time="0.113">
     <system-out><![CDATA[ INFO [main] (ProductsPage.java:42)- @InventoryPage-SortBy dropdown clicked.
  INFO [main] (ProductsPage.java:44)- @InventoryPage-Price (high to low) button clicked
 ]]></system-out>
   </testcase>
-  <testcase name="login[standard_user, secret_sauce](1)" classname="com.testing.testcases.TC03_AddToCart" time="0.392">
+  <testcase name="login[standard_user, secret_sauce](1)" classname="com.testing.testcases.TC03_AddToCart" time="0.139">
     <system-out><![CDATA[ INFO [main] (ProductsPage.java:87)- @InventoryPage-MoreOptions button clicked
  INFO [main] (ProductsPage.java:89)- @InventoryPage-Logout button clicked
  INFO [main] (BaseClassSD.java:117)- Browser closed
@@ -263,7 +263,7 @@ url opened
  INFO [main] (LoginPage.java:26)- @LoginPage-Password entered
  INFO [main] (LoginPage.java:28)- @LoginPage-login button clicked
 ]]></system-out>
-    <system-err><![CDATA[Aug 14, 2023 2:50:18 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Aug 14, 2023 3:02:29 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:345)
@@ -282,28 +282,34 @@ java.net.SocketException: Connection reset
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:923)
 
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 12849
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 9733
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1692004819.696][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
-Aug 14, 2023 2:50:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1692005550.735][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+Aug 14, 2023 3:02:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 115
-Aug 14, 2023 2:50:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Aug 14, 2023 3:02:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="addProductToCart" classname="com.testing.testcases.TC03_AddToCart" time="0.255">
+  <testcase name="addProductToCart" classname="com.testing.testcases.TC03_AddToCart" time="0.182">
     <system-out><![CDATA[ INFO [main] (BaseClassSD.java:99)- scrolling to a element
+ INFO [main] (BaseClassSD.java:99)- scrolling to a element
+ INFO [main] (BaseClassSD.java:99)- scrolling to a element
+ INFO [main] (BaseClassSD.java:99)- scrolling to a element
  INFO [main] (BaseClassSD.java:99)- scrolling to a element
  INFO [main] (ProductsPage.java:82)- @InventoryPage-Cart button clicked.
 ]]></system-out>
   </testcase>
-  <testcase name="removeProductFromCart" classname="com.testing.testcases.TC03_AddToCart" time="0.071">
+  <testcase name="removeProductFromCart" classname="com.testing.testcases.TC03_AddToCart" time="0.075">
     <system-out><![CDATA[ INFO [main] (CartPage.java:34)- @CartPage-Remove product button clicked
+ INFO [main] (CartPage.java:34)- @CartPage-Remove product button clicked
+ INFO [main] (CartPage.java:34)- @CartPage-Remove product button clicked
+ INFO [main] (CartPage.java:34)- @CartPage-Remove product button clicked
 ]]></system-out>
   </testcase>
-  <testcase name="login[standard_user, secret_sauce](1)" classname="com.testing.testcases.TC04_Checkout" time="0.396">
+  <testcase name="login[standard_user, secret_sauce](1)" classname="com.testing.testcases.TC04_Checkout" time="0.135">
     <system-out><![CDATA[ INFO [main] (ProductsPage.java:87)- @InventoryPage-MoreOptions button clicked
  INFO [main] (ProductsPage.java:89)- @InventoryPage-Logout button clicked
  INFO [main] (BaseClassSD.java:117)- Browser closed
@@ -315,7 +321,7 @@ url opened
  INFO [main] (LoginPage.java:26)- @LoginPage-Password entered
  INFO [main] (LoginPage.java:28)- @LoginPage-login button clicked
 ]]></system-out>
-    <system-err><![CDATA[Aug 14, 2023 2:50:21 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Aug 14, 2023 3:02:32 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:345)
@@ -334,30 +340,28 @@ java.net.SocketException: Connection reset
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:923)
 
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 30143
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 38176
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1692004822.969][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
-Aug 14, 2023 2:50:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1692005553.161][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+Aug 14, 2023 3:02:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 115
-Aug 14, 2023 2:50:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Aug 14, 2023 3:02:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.6.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="addProductToCart" classname="com.testing.testcases.TC04_Checkout" time="0.472">
+  <testcase name="addProductToCart" classname="com.testing.testcases.TC04_Checkout" time="0.109">
     <system-out><![CDATA[adding product to cart
- INFO [main] (BaseClassSD.java:99)- scrolling to a element
- INFO [main] (BaseClassSD.java:99)- scrolling to a element
  INFO [main] (BaseClassSD.java:99)- scrolling to a element
 product added to cart..
  INFO [main] (BaseClassSD.java:99)- scrolling to a element
  INFO [main] (ProductsPage.java:82)- @InventoryPage-Cart button clicked.
  INFO [main] (CartPage.java:25)- Checking whether products added to cart..
- INFO [main] (CartPage.java:26)- @CartPage-Total products added: 3
+ INFO [main] (CartPage.java:26)- @CartPage-Total products added: 1
 ]]></system-out>
   </testcase>
-  <testcase name="checkoutTheProduct[Sample, user, 54321](1)" classname="com.testing.testcases.TC04_Checkout" time="0.449">
+  <testcase name="checkoutTheProduct[Sample, user, 54321](1)" classname="com.testing.testcases.TC04_Checkout" time="0.172">
     <system-out><![CDATA[ INFO [main] (CartPage.java:44)- @CartPage-Checkout button clicked.
  INFO [main] (CheckoutInfoPage.java:25)- @CheckoutInfoPage-FirstName entered
  INFO [main] (CheckoutInfoPage.java:27)- @CheckoutInfoPage-LastName entered
@@ -365,7 +369,7 @@ product added to cart..
  INFO [main] (CheckoutInfoPage.java:35)- @CheckoutInfoPage-Continue button clicked
 ]]></system-out>
   </testcase>
-  <testcase name="finishCheckout" classname="com.testing.testcases.TC04_Checkout" time="0.182">
+  <testcase name="finishCheckout" classname="com.testing.testcases.TC04_Checkout" time="0.073">
     <system-out><![CDATA[ INFO [main] (ChckoutOverviewPage.java:21)- @CheckoutOverviewPage-Finish button clicked
  INFO [main] (ChckoutCompletePage.java:23)- @CheckoutCompletePage-Order placed successfully!! :)
  INFO [main] (ChckoutCompletePage.java:25)- @CheckoutCompletePage-BackHome button clicked

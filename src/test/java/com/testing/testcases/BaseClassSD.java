@@ -36,7 +36,7 @@ public class BaseClassSD {
 	public void setup(String browserName) {
 		//initializing the logger using log4j.properties file
 		logger = Logger.getLogger("SauceDemoWebTesting");
-		PropertyConfigurator.configure("Log4j.properties");
+		PropertyConfigurator.configure("log4j.properties");
 		System.setProperty("webdriver.http.factory", "jdk-http-client");
 		
 		switch(browserName.toLowerCase()) {//invoking the browser
@@ -78,7 +78,7 @@ public class BaseClassSD {
 	
 	public static String screenShot(String imgName) {//taking screenshot
 		String dateFormat = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-		String filePath =System.getProperty("user.dir")+"\\screenshots\\"+imgName+"_"+dateFormat+".png";
+		String filePath =System.getProperty("user.dir")+"/screenshots/"+imgName+"_"+dateFormat+".png";
 		try {
 			TakesScreenshot screenshot = (TakesScreenshot)driver;
 			File src = screenshot.getScreenshotAs(OutputType.FILE);
