@@ -1,0 +1,14 @@
+com\testing\pageobjects\LoginPage.class
+com\testing\testcases\TC02_SortProducts.class
+com\testing\pageobjects\CartPage.class
+com\testing\testcases\TC03_AddToCart.class
+com\testing\testcases\TC01_Login.class
+com\testing\utils\ReadConfig.class
+com\testing\utils\ReportingSD.class
+com\testing\pageobjects\CheckoutInfoPage.class
+com\testing\pageobjects\ProductsPage.class
+com\testing\testcases\BaseClassSD.class
+com\testing\testcases\TC04_Checkout.class
+com\testing\utils\JsonFileUtils.class
+com\testing\pageobjects\ChckoutOverviewPage.class
+com\testing\pageobjects\ChckoutCompletePage.class
